@@ -15,7 +15,7 @@ return`<div class="platillo">
 
 const mostrarContenido=(url)=>{
 
-debugger
+
 let opciones=""
 fetch(url)
 .then((response)=>response.json())
